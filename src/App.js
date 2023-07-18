@@ -44,7 +44,7 @@ function App() {
     // useEffect(fetchApi());
     useEffect(() => {
         fetchApi();
-    });
+    },[location]);
 
     const submitHandler = (e) => {
         e.preventDefault();
