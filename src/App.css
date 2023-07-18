@@ -54,6 +54,13 @@
     font-size: 0.75rem;
 }
 
+.weather3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .weather3 span {
     margin: 0.3rem;
 }

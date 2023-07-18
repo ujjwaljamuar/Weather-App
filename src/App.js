@@ -59,7 +59,7 @@ function App() {
         <>
             <div className="container">
                 <div className="weather">
-                    <div className="weather1">{temp} °C</div>
+                    <div className="weather1">{temp}°C</div>
                     <div className="weather2">
                         <p>{location}</p>
                         <span>{locatime}</span>
