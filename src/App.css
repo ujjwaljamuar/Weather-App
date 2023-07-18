@@ -4,6 +4,7 @@
     margin: 0%;
     padding: 0;
     font-family: "Roboto", sans-serif;
+    transition: all 0.5s;
 }
 
 .container {
@@ -103,18 +104,51 @@ nav form button {
 }
 
 @media all and (max-width: 400px) {
+    .weather{
+        display: flex;
+        flex-direction: column;
+    }
+
     .weather1 {
         font-size: 4rem;
     }
 
-    .tempType {
-        font-size: 2rem;
+    .weather2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
-    .weather p {
+    .weather2 > span{
         font-size: 1rem;
     }
-    .weather span {
-        font-size: 0.75rem;
+
+    .weather3{
+        padding: 2rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
+
+    .weather3 > p > img{
+        width: 100%;
+        height: 100%;
+        /* scale: 2; */
+    }
+
+    .weather3 > span{
+        font-size: .8rem;
+    }
+
+    nav form {
+        width: 60%;
+        gap: .5rem;
+        display: grid;
+        grid-template-columns: 5fr 2fr;
+    }
+
+
+    
 }
